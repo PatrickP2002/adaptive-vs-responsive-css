@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Overskrifter + tekst  */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+h1{
+    font-size: 1.3rem;
+
+    font-size: calc(1rem + 2vw);
+    
+    
+}
+
+h2{
+    font-size: 0.8rem;
+    font-size: calc(0.8rem + 2vw);
+
+}
+
+
+
+
+/* Navigation + A Tags*/
+nav a{
+    background-color: grey;
+    padding: 10px;
+    border: 1px solid black ;
+}
+
+nav a:hover{
+    background-color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li{
+    padding: 0.6rem 0;
+}
+
